@@ -1,0 +1,17 @@
+{
+    "name": "apige/graphql-mysql-api",
+    "description": "A package to create a GraphQL API with MySQL, JWT Authentication, and Rate Limiting",
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "firebase/php-jwt": "^5.0",
+        "webonyx/graphql-php": "^14.0",
+        "symfony/rate-limiter": "^5.3",
+        "illuminate/database": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apige\\GraphQLMySQLAPI\\": "src/"
+        }
+    }
+}
