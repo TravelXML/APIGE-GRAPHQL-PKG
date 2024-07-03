@@ -14,5 +14,12 @@
             "Apige\\GraphQLMySQLAPI\\": "src/"
         }
     },
-    "license": "MIT"
+    "license": "MIT",
+    "provides": {
+        "graphql-php": "14.0.0"
+    },
+    "suggests": {
+        "monolog/monolog": "Allows logging of API requests and responses",
+        "guzzlehttp/guzzle": "Provides an HTTP client for making API requests"
+    }
 }
